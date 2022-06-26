@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+        "gui_guider.h": "c",
+        "lv_port_indev.h": "c",
+        "ec11.h": "c",
+        "lvgl.h": "c",
+        "events_init.h": "c",
+        "custom.h": "c",
+        "functional": "c",
+        "istream": "c",
+        "ostream": "c",
+        "array": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c",
+        "tim.h": "c",
+        "cmsis_os.h": "c",
+        "main.h": "c",
+        "lv_obj_draw.h": "c",
+        "lv_obj_tree.h": "c",
+        "ws2812.h": "c",
+        "string.h": "c",
+        "flash.h": "c",
+        "guider_fonts.h": "c",
+        "stdio.h": "c"
+    }
+}

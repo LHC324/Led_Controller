@@ -1,0 +1,13 @@
+led_controller\lv_font.o: ..\LVGL\lvgl\src\font\lv_font.c
+led_controller\lv_font.o: ..\LVGL\lvgl\src\font\lv_font.h
+led_controller\lv_font.o: ..\LVGL\lvgl\src\font\../lv_conf_internal.h
+led_controller\lv_font.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+led_controller\lv_font.o: ..\LVGL\lvgl\src\font\../lv_conf_kconfig.h
+led_controller\lv_font.o: ../LVGL/lvgl/lv_conf.h
+led_controller\lv_font.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+led_controller\lv_font.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+led_controller\lv_font.o: ..\LVGL\lvgl\src\font\lv_symbol_def.h
+led_controller\lv_font.o: ..\LVGL\lvgl\src\font\../misc/lv_area.h
+led_controller\lv_font.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+led_controller\lv_font.o: ..\LVGL\lvgl\src\font\../misc/lv_utils.h
+led_controller\lv_font.o: ..\LVGL\lvgl\src\font\../misc/lv_log.h

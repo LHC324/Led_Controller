@@ -1,0 +1,72 @@
+*** Creating Trace Output File '..\Output\tiky.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\output\stm32f10x_it.o"'
+### List of Objects: adding '"..\output\core_cm3.o"'
+### List of Objects: adding '"..\output\system_stm32f10x.o"'
+### List of Objects: adding '"..\output\startup_stm32f10x_md.o"'
+### List of Objects: adding '"..\output\adc.o"'
+### List of Objects: adding '"..\output\main.o"'
+### List of Objects: adding '"..\output\serialnum.o"'
+### List of Objects: adding '"..\output\font_lib_sd.o"'
+### List of Objects: adding '"..\output\gui_x.o"'
+### List of Objects: adding '"..\output\ucgui_practice.o"'
+### List of Objects: adding '"..\output\ucgui_practice_ps2.o"'
+### List of Objects: adding '"..\code\library\Camera_uCGUI Lib.lib"'
+### List of Objects: adding '"..\output\dialog_all.o"'
+### List of Objects: adding '"..\output\dialog_slidercolor.o"'
+### List of Objects: adding '"..\output\wm_lateclipping.o"'
+### List of Objects: adding '"..\output\dialog_nestedmodal.o"'
+### List of Objects: adding '"..\output\widget_effect.o"'
+### List of Objects: adding '"..\output\widget_numpad.o"'
+### List of Objects: adding '"..\output\widget_multipage.o"'
+### List of Objects: adding '"..\output\widget_buttonround.o"'
+### List of Objects: adding '"..\output\gps_tiky.o"'
+### List of Objects: adding '"..\output\ff.o"'
+### List of Objects: adding '"..\output\diskio.o"'
+### List of Objects: adding '"..\output\my_ff.o"'
+### List of Objects: adding '"..\output\delay.o"'
+### List of Objects: adding '"..\output\fifo.o"'
+### List of Objects: adding '"..\output\ov7670.o"'
+### List of Objects: adding '"..\output\ov7670_test.o"'
+### List of Objects: adding '"..\output\sccb.o"'
+### List of Objects: adding '"..\output\my_menu.o"'
+### List of Objects: adding '"..\output\rtc.o"'
+### List of Objects: adding '"..\output\calendar.o"'
+### List of Objects: adding '"..\output\ili9325.o"'
+### List of Objects: adding '"..\output\picdemo.o"'
+### List of Objects: adding '"..\output\lcm_api.o"'
+### List of Objects: adding '"..\output\touch.o"'
+### List of Objects: adding '"..\output\msd.o"'
+### List of Objects: adding '"..\output\sysconfig.o"'
+### List of Objects: adding '"..\output\uart.o"'
+### List of Objects: adding '"..\output\stm32f10x_adc.o"'
+### List of Objects: adding '"..\output\stm32f10x_gpio.o"'
+### List of Objects: adding '"..\output\stm32f10x_rtc.o"'
+### List of Objects: adding '"..\output\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\output\stm32f10x_spi.o"'
+### List of Objects: adding '"..\output\stm32f10x_tim.o"'
+### List of Objects: adding '"..\output\stm32f10x_usart.o"'
+### List of Objects: adding '"..\output\stm32f10x_dma.o"'
+### List of Objects: adding '"..\output\stm32f10x_exti.o"'
+### List of Objects: adding '"..\output\stm32f10x_bkp.o"'
+### List of Objects: adding '"..\output\misc.o"'
+### List of Objects: adding '"..\output\stm32f10x_pwr.o"'
+### List of Objects: adding '"..\output\stm32f10x_fsmc.o"'
+### List of Objects: adding '"..\output\lcdnull.o"'
+### List of Objects: adding '"..\output\mouse.o"'
+### List of Objects: adding '"..\output\ps2.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\output\stm32f10x_it.o" "..\output\core_cm3.o" "..\output\system_stm32f10x.o" "..\output\startup_stm32f10x_md.o" "..\output\adc.o" "..\output\main.o" "..\output\serialnum.o" "..\output\font_lib_sd.o" "..\output\gui_x.o" "..\output\ucgui_practice.o" "..\output\ucgui_practice_ps2.o" "R:\Camera and ucGUI__4.0¥Á_¥¯ Û±Í≈‰–¬∆¿π¿∞Â\code\library\Camera_uCGUI Lib.lib" "..\output\dialog_all.o" "..\output\dialog_slidercolor.o" "..\output\wm_lateclipping.o" "..\output\dialog_nestedmodal.o" "..\output\widget_effect.o" "..\output\widget_numpad.o" "..\output\widget_multipage.o" "..\output\widget_buttonround.o" "..\output\gps_tiky.o" "..\output\ff.o" "..\output\diskio.o" "..\output\my_ff.o" "..\output\delay.o" "..\output\fifo.o" "..\output\ov7670.o" "..\output\ov7670_test.o" "..\output\sccb.o" "..\output\my_menu.o" "..\output\rtc.o" "..\output\calendar.o" "..\output\ili9325.o" "..\output\picdemo.o" "..\output\lcm_api.o" "..\output\touch.o" "..\output\msd.o" "..\output\sysconfig.o" "..\output\uart.o" "..\output\stm32f10x_adc.o" "..\output\stm32f10x_gpio.o" "..\output\stm32f10x_rtc.o" "..\output\stm32f10x_rcc.o" "..\output\stm32f10x_spi.o" "..\output\stm32f10x_tim.o" "..\output\stm32f10x_usart.o" "..\output\stm32f10x_dma.o" "..\output\stm32f10x_exti.o" "..\output\stm32f10x_bkp.o" "..\output\misc.o" "..\output\stm32f10x_pwr.o" "..\output\stm32f10x_fsmc.o" "..\output\lcdnull.o" "..\output\mouse.o" "..\output\ps2.o" --library_type=microlib --ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\listing\tiky.map" -o ..\Output\tiky.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\Output\tiky.axf'
+### ADS-LD Command File: '..\Output\tiky.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\Output\tiky.lnp', Handle=0x0000023C
+### Writing '.lnp' file
+### ADS-LD Command file '..\Output\tiky.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

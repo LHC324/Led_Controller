@@ -1,0 +1,393 @@
+
+LVGL v8.0.2  Benchmark (in csv format)
+Weighted FPS: 9
+Opa. speed: 88%
+Rectangle,10
+Rectangle + opa,10
+Rectangle rounded,10
+Rectangle rounded + opa,9
+Circle,9
+Border,13
+Border + opa,11
+Border rounded,10
+Border rounded + opa,10
+Circle border,7
+Image RGB + opa,18
+Image ARGB + opa,18
+Image ARGB recolor,17
+Image ARGB recolor + opa,15
+Text small,4
+Text small + opa,4
+Text medium,4
+Text medium + opa,4
+Text large,4
+Text large + opa,4
+Text large compressed,3
+Line,9
+Arc think,9
+Arc thick,9
+Substr. rectangle,9
+Substr. border,10
+Substr. shadow,4
+Substr. image,17
+Substr. line,9
+Substr. arc,9
+Substr. text,4
+Rectangle,10
+Rectangle + opa,10
+Rectangle rounded,10
+Rectangle rounded + opa,9
+Circle,9
+Circle + opa,7
+Border,13
+Border + opa,11
+Border rounded,10
+Border rounded + opa,10
+Circle border,7
+Circle border + opa,7
+Border top,11
+Border top + opa,10
+Border left,9
+Border left + opa,9
+Border top + left,9
+Border top + left + opa,9
+Border left + right,9
+Border left + right + opa,9
+Border top + bottom,10
+Border top + bottom + opa,10
+Shadow small,5
+Shadow small + opa,5
+Shadow small offset,4
+Shadow small offset + opa,4
+Shadow large,2
+Shadow large + opa,2
+Shadow large offset,2
+Shadow large offset + opa,1
+Image RGB,26
+Image RGB + opa,18
+Image ARGB,22
+Image ARGB + opa,18
+Image chorma keyed,21
+Image chorma keyed + opa,17
+Image indexed,14
+Image indexed + opa,12
+Image alpha only,15
+Image alpha only + opa,13
+Image RGB recolor,16
+Image RGB recolor + opa,12
+Image ARGB recolor,17
+Image ARGB recolor + opa,15
+Image chorma keyed recolor,17
+Image chorma keyed recolor + opa,15
+Image indexed recolor,12
+Image indexed recolor + opa,11
+Image RGB rotate,6
+Image RGB rotate + opa,5
+Image RGB rotate anti aliased,2
+Image RGB rotate anti aliased + opa,2
+Image ARGB rotate,6
+Image ARGB rotate + opa,5
+Image ARGB rotate anti aliased,2
+Image ARGB rotate anti aliased + opa,2
+Image RGB zoom,6
+Image RGB zoom + opa,5
+Image RGB zoom anti aliased,2
+Image RGB zoom anti aliased + opa,2
+Image ARGB zoom,6
+Image ARGB zoom + opa,5
+Image ARGB zoom anti aliased,2
+Image ARGB zoom anti aliased + opa,2
+Text small,4
+Text small + opa,4
+Text medium,4
+Text medium + opa,4
+Text large,4
+Text large + opa,4
+Text small compressed,5
+Text small compressed + opa,5
+Text medium compressed,4
+Text medium compressed + opa,4
+Text large compressed,3
+Text large compressed + opa,3
+Line,9
+Line + opa,10
+Arc think,9
+Arc think + opa,9
+Arc thick,9
+Arc thick + opa,9
+Substr. rectangle,9
+Substr. rectangle + opa,9
+Substr. border,10
+Substr. border + opa,10
+Substr. shadow,4
+Substr. shadow + opa,4
+Substr. image,17
+Substr. image + opa,16
+Substr. line,9
+Substr. line + opa,9
+Substr. arc,9
+Substr. arc + opa,9
+Substr. text,4
+Substr. text + opa,4
+
+LVGL v8.0.2  Benchmark (in csv format)
+Weighted FPS: 9
+Opa. speed: 88%
+Rectangle,10
+Rectangle + opa,10
+Rectangle rounded,10
+Rectangle rounded + opa,9
+Circle,9
+Border,13
+Border + opa,11
+Border rounded,10
+Border rounded + opa,10
+Circle border,7
+Image RGB + opa,18
+Image ARGB + opa,18
+Image ARGB recolor,17
+Image ARGB recolor + opa,15
+Text small,4
+Text small + opa,4
+Text medium,4
+Text medium + opa,4
+Text large,4
+Text large + opa,4
+Text large compressed,3
+Line,9
+Arc think,9
+Arc thick,9
+Substr. rectangle,9
+Substr. border,10
+Substr. shadow,4
+Substr. image,17
+Substr. line,9
+Substr. arc,9
+Substr. text,4
+Rectangle,10
+Rectangle + opa,10
+Rectangle rounded,10
+Rectangle rounded + opa,9
+Circle,9
+Circle + opa,7
+Border,13
+Border + opa,11
+Border rounded,10
+Border rounded + opa,10
+Circle border,7
+Circle border + opa,7
+Border top,11
+Border top + opa,10
+Border left,9
+Border left + opa,9
+Border top + left,9
+Border top + left + opa,9
+Border left + right,9
+Border left + right + opa,9
+Border top + bottom,10
+Border top + bottom + opa,10
+Shadow small,5
+Shadow small + opa,5
+Shadow small offset,4
+Shadow small offset + opa,4
+Shadow large,2
+Shadow large + opa,2
+Shadow large offset,2
+Shadow large offset + opa,1
+Image RGB,26
+Image RGB + opa,18
+Image ARGB,22
+Image ARGB + opa,18
+Image chorma keyed,21
+Image chorma keyed + opa,17
+Image indexed,14
+Image indexed + opa,12
+Image alpha only,15
+Image alpha only + opa,13
+Image RGB recolor,16
+Image RGB recolor + opa,12
+Image ARGB recolor,17
+Image ARGB recolor + opa,15
+Image chorma keyed recolor,18
+Image chorma keyed recolor + opa,15
+Image indexed recolor,12
+Image indexed recolor + opa,11
+Image RGB rotate,6
+Image RGB rotate + opa,5
+Image RGB rotate anti aliased,2
+Image RGB rotate anti aliased + opa,2
+Image ARGB rotate,6
+Image ARGB rotate + opa,5
+Image ARGB rotate anti aliased,2
+Image ARGB rotate anti aliased + opa,2
+Image RGB zoom,6
+Image RGB zoom + opa,5
+Image RGB zoom anti aliased,2
+Image RGB zoom anti aliased + opa,2
+Image ARGB zoom,6
+Image ARGB zoom + opa,5
+Image ARGB zoom anti aliased,2
+Image ARGB zoom anti aliased + opa,2
+Text small,4
+Text small + opa,4
+Text medium,4
+Text medium + opa,4
+Text large,4
+Text large + opa,4
+Text small compressed,5
+Text small compressed + opa,5
+Text medium compressed,4
+Text medium compressed + opa,4
+Text large compressed,3
+Text large compressed + opa,3
+Line,9
+Line + opa,10
+Arc think,9
+Arc think + opa,9
+Arc thick,9
+Arc thick + opa,9
+Substr. rectangle,9
+Substr. rectangle + opa,9
+Substr. border,10
+Substr. border + opa,10
+Substr. shadow,4
+Substr. shadow + opa,4
+Substr. image,17
+Substr. image + opa,16
+Substr. line,9
+Substr. line + opa,9
+Substr. arc,9
+Substr. arc + opa,9
+Substr. text,4
+Substr. text + opa,4
+
+LVGL v8.0.2  Benchmark (in csv format)
+Weighted FPS: 9
+Opa. speed: 88%
+Rectangle,11
+Rectangle + opa,10
+Rectangle rounded,10
+Rectangle rounded + opa,9
+Circle,9
+Border,13
+Border + opa,10
+Border rounded,10
+Border rounded + opa,10
+Circle border,7
+Image RGB + opa,18
+Image ARGB + opa,18
+Image ARGB recolor,17
+Image ARGB recolor + opa,15
+Text small,4
+Text small + opa,4
+Text medium,4
+Text medium + opa,4
+Text large,4
+Text large + opa,4
+Text large compressed,3
+Line,9
+Arc think,9
+Arc thick,9
+Substr. rectangle,9
+Substr. border,10
+Substr. shadow,4
+Substr. image,17
+Substr. line,9
+Substr. arc,9
+Substr. text,4
+Rectangle,11
+Rectangle + opa,10
+Rectangle rounded,10
+Rectangle rounded + opa,9
+Circle,9
+Circle + opa,7
+Border,13
+Border + opa,10
+Border rounded,10
+Border rounded + opa,10
+Circle border,7
+Circle border + opa,7
+Border top,10
+Border top + opa,11
+Border left,9
+Border left + opa,9
+Border top + left,9
+Border top + left + opa,9
+Border left + right,9
+Border left + right + opa,9
+Border top + bottom,10
+Border top + bottom + opa,10
+Shadow small,5
+Shadow small + opa,5
+Shadow small offset,4
+Shadow small offset + opa,4
+Shadow large,2
+Shadow large + opa,2
+Shadow large offset,2
+Shadow large offset + opa,1
+Image RGB,26
+Image RGB + opa,18
+Image ARGB,21
+Image ARGB + opa,18
+Image chorma keyed,21
+Image chorma keyed + opa,17
+Image indexed,14
+Image indexed + opa,12
+Image alpha only,15
+Image alpha only + opa,13
+Image RGB recolor,16
+Image RGB recolor + opa,12
+Image ARGB recolor,17
+Image ARGB recolor + opa,15
+Image chorma keyed recolor,17
+Image chorma keyed recolor + opa,15
+Image indexed recolor,12
+Image indexed recolor + opa,10
+Image RGB rotate,6
+Image RGB rotate + opa,5
+Image RGB rotate anti aliased,2
+Image RGB rotate anti aliased + opa,2
+Image ARGB rotate,6
+Image ARGB rotate + opa,5
+Image ARGB rotate anti aliased,2
+Image ARGB rotate anti aliased + opa,2
+Image RGB zoom,6
+Image RGB zoom + opa,5
+Image RGB zoom anti aliased,2
+Image RGB zoom anti aliased + opa,2
+Image ARGB zoom,6
+Image ARGB zoom + opa,5
+Image ARGB zoom anti aliased,2
+Image ARGB zoom anti aliased + opa,2
+Text small,4
+Text small + opa,4
+Text medium,4
+Text medium + opa,4
+Text large,4
+Text large + opa,4
+Text small compressed,5
+Text small compressed + opa,5
+Text medium compressed,4
+Text medium compressed + opa,4
+Text large compressed,3
+Text large compressed + opa,3
+Line,9
+Line + opa,10
+Arc think,9
+Arc think + opa,9
+Arc thick,9
+Arc thick + opa,9
+Substr. rectangle,9
+Substr. rectangle + opa,9
+Substr. border,10
+Substr. border + opa,10
+Substr. shadow,4
+Substr. shadow + opa,4
+Substr. image,17
+Substr. image + opa,16
+Substr. line,9
+Substr. line + opa,9
+Substr. arc,9
+Substr. arc + opa,9
+Substr. text,4
+Substr. text + opa,4

@@ -1,0 +1,25 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "gpio.h": "c",
+            "lcd.h": "c",
+            "ec11.h": "c",
+            "main.h": "c",
+            "spi.h": "c"
+        }
+    },
+    "extensions": {},
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "tasks": {
+        "version": "2.0.0",
+        "tasks": []
+    }
+}

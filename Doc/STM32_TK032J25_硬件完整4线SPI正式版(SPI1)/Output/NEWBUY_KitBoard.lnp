@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+".\output\startup_stm32f10x_hd.o"
+".\output\main.o"
+".\output\sdcard.o"
+".\output\stm32f10x_it.o"
+".\output\systick.o"
+".\output\usart_printf.o"
+".\output\spi.o"
+".\output\lcd.o"
+".\output\touch.o"
+".\output\diskio.o"
+".\output\ff.o"
+".\output\core_cm3.o"
+".\output\system_stm32f10x.o"
+".\output\misc.o"
+".\output\stm32f10x_dma.o"
+".\output\stm32f10x_fsmc.o"
+".\output\stm32f10x_gpio.o"
+".\output\stm32f10x_rcc.o"
+".\output\stm32f10x_sdio.o"
+".\output\stm32f10x_usart.o"
+".\output\stm32f10x_spi.o"
+--library_type=microlib --strict --scatter ".\Output\NEWBUY_KitBoard.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listting\NEWBUY_KitBoard.map" -o .\Output\NEWBUY_KitBoard.axf

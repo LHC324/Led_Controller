@@ -1,0 +1,40 @@
+--cpu Cortex-M4.fp --library_type=microlib --scatter "d:/STM32_WorkSpace/Led_Controller/MDK-ARM/build/Led_Controller/MDK-ARM.sct" --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers
+--list .\build\Led_Controller\MDK-ARM.map
+.\build\Led_Controller\__\Core\Src\Ec11.o
+.\build\Led_Controller\__\Core\Src\Lcd.o
+.\build\Led_Controller\__\Core\Src\freertos.o
+.\build\Led_Controller\__\Core\Src\gpio.o
+.\build\Led_Controller\__\Core\Src\main.o
+.\build\Led_Controller\__\Core\Src\spi.o
+.\build\Led_Controller\__\Core\Src\stm32f4xx_hal_msp.o
+.\build\Led_Controller\__\Core\Src\stm32f4xx_hal_timebase_tim.o
+.\build\Led_Controller\__\Core\Src\stm32f4xx_it.o
+.\build\Led_Controller\__\Core\Src\system_stm32f4xx.o
+.\build\Led_Controller\__\Core\Src\tim.o
+.\build\Led_Controller\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o
+.\build\Led_Controller\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o
+.\build\Led_Controller\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o
+.\build\Led_Controller\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o
+.\build\Led_Controller\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.o
+.\build\Led_Controller\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o
+.\build\Led_Controller\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o
+.\build\Led_Controller\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o
+.\build\Led_Controller\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o
+.\build\Led_Controller\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o
+.\build\Led_Controller\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o
+.\build\Led_Controller\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o
+.\build\Led_Controller\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o
+.\build\Led_Controller\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.o
+.\build\Led_Controller\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o
+.\build\Led_Controller\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o
+.\build\Led_Controller\__\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.o
+.\build\Led_Controller\__\Middlewares\Third_Party\FreeRTOS\Source\croutine.o
+.\build\Led_Controller\__\Middlewares\Third_Party\FreeRTOS\Source\event_groups.o
+.\build\Led_Controller\__\Middlewares\Third_Party\FreeRTOS\Source\list.o
+.\build\Led_Controller\__\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.o
+.\build\Led_Controller\__\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM4F\port.o
+.\build\Led_Controller\__\Middlewares\Third_Party\FreeRTOS\Source\queue.o
+.\build\Led_Controller\__\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.o
+.\build\Led_Controller\__\Middlewares\Third_Party\FreeRTOS\Source\tasks.o
+.\build\Led_Controller\__\Middlewares\Third_Party\FreeRTOS\Source\timers.o
+.\build\Led_Controller\startup_stm32f411xe.o -o .\build\Led_Controller\MDK-ARM.axf

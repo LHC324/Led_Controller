@@ -1,0 +1,90 @@
+[2022-04-13 21:46:45]	[done]
+	build successfully !
+
+[2022-04-13 23:51:27]	compilation failed at : "d:\STM32_WorkSpace\Led_Controller\Core\Src\Lcd.c", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x0196e] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+".\..\Core\Inc\Lcd.h", line 30: Error:  #40: expected an identifier
+      {
+      ^
+".\..\Core\Inc\Lcd.h", line 30: Error:  #65: expected a ";"
+      {
+      ^
+".\..\Core\Inc\Lcd.h", line 34: Warning:  #12-D: parsing restarts here after previous syntax error
+      };
+       ^
+".\..\Core\Src\Lcd.c", line 346: Error:  #393: pointer to incomplete class type is not allowed
+          lcd->LCD_Write(lcd, Cmd, *p);
+          ^
+".\..\Core\Src\Lcd.c", line 342: Warning:  #550-D: variable "type"  was set but never used
+      Lcd_Option type;
+                 ^
+".\..\Core\Src\Lcd.c", line 382: Error:  #393: pointer to incomplete class type is not allowed
+      HAL_GPIO_WritePin(lcd->Rs.pGPIOx, lcd->Rs.Pin, PinState);
+                        ^
+".\..\Core\Src\Lcd.c", line 382: Error:  #393: pointer to incomplete class type is not allowed
+      HAL_GPIO_WritePin(lcd->Rs.pGPIOx, lcd->Rs.Pin, PinState);
+                                        ^
+".\..\Core\Src\Lcd.c", line 383: Error:  #393: pointer to incomplete class type is not allowed
+      HAL_SPI_Transmit(lcd->Spi.hspi, (uint8_t *)&Data, sizeof(Data), lcd->Spi.timeout);
+                       ^
+".\..\Core\Src\Lcd.c", line 383: Error:  #393: pointer to incomplete class type is not allowed
+      HAL_SPI_Transmit(lcd->Spi.hspi, (uint8_t *)&Data, sizeof(Data), lcd->Spi.timeout);
+                                                                      ^
+".\..\Core\Src\Lcd.c", line 357: Warning:  #177-D: function "Lcd_init"  was declared but never referenced
+  static void Lcd_init(pLcd lcd)
+              ^
+".\..\Core\Src\Lcd.c", line 377: Warning:  #177-D: function "Lcd_Write"  was declared but never referenced
+  static void Lcd_Write(pLcd lcd, Lcd_Option type, uint8_t Data)
+              ^
+.\..\Core\Src\Lcd.c: 4 warnings, 7 errors
+
+[2022-04-13 23:52:27]	compilation failed at : "d:\STM32_WorkSpace\Led_Controller\Core\Src\Lcd.c", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x0196e] in <82200d7cd0cf4a279c5fb9fc299a656f>:0 
+---
+".\..\Core\Inc\Lcd.h", line 30: Error:  #40: expected an identifier
+      {
+      ^
+".\..\Core\Inc\Lcd.h", line 30: Error:  #65: expected a ";"
+      {
+      ^
+".\..\Core\Inc\Lcd.h", line 34: Warning:  #12-D: parsing restarts here after previous syntax error
+      };
+       ^
+".\..\Core\Src\Lcd.c", line 346: Error:  #393: pointer to incomplete class type is not allowed
+          lcd->LCD_Write(lcd, Cmd, *p);
+          ^
+".\..\Core\Src\Lcd.c", line 342: Warning:  #550-D: variable "type"  was set but never used
+      Lcd_Option type;
+                 ^
+".\..\Core\Src\Lcd.c", line 382: Error:  #393: pointer to incomplete class type is not allowed
+      HAL_GPIO_WritePin(lcd->Rs.pGPIOx, lcd->Rs.Pin, PinState);
+                        ^
+".\..\Core\Src\Lcd.c", line 382: Error:  #393: pointer to incomplete class type is not allowed
+      HAL_GPIO_WritePin(lcd->Rs.pGPIOx, lcd->Rs.Pin, PinState);
+                                        ^
+".\..\Core\Src\Lcd.c", line 383: Error:  #393: pointer to incomplete class type is not allowed
+      HAL_SPI_Transmit(lcd->Spi.hspi, (uint8_t *)&Data, sizeof(Data), lcd->Spi.timeout);
+                       ^
+".\..\Core\Src\Lcd.c", line 383: Error:  #393: pointer to incomplete class type is not allowed
+      HAL_SPI_Transmit(lcd->Spi.hspi, (uint8_t *)&Data, sizeof(Data), lcd->Spi.timeout);
+                                                                      ^
+".\..\Core\Src\Lcd.c", line 357: Warning:  #177-D: function "Lcd_init"  was declared but never referenced
+  static void Lcd_init(pLcd lcd)
+              ^
+".\..\Core\Src\Lcd.c", line 377: Warning:  #177-D: function "Lcd_Write"  was declared but never referenced
+  static void Lcd_Write(pLcd lcd, Lcd_Option type, uint8_t Data)
+              ^
+.\..\Core\Src\Lcd.c: 4 warnings, 7 errors
+
+[2022-04-13 23:53:01]	[done]
+	build successfully !
+
+[2022-04-13 23:57:16]	[done]
+	build successfully !
+
+[2022-04-13 23:59:01]	[done]
+	build successfully !
+

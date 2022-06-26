@@ -1,0 +1,1531 @@
+Dependencies for Project 'Camera and uc_gui_2.0', Target 'Tiky Camera with ucgui and GPS': (DO NOT MODIFY !)
+F (..\code\system\stm32f10x_it.c)(0x54132670)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_it.o --omf_browse ..\output\stm32f10x_it.crf --depend ..\output\stm32f10x_it.d)
+I (..\code\system\stm32f10x_it.h)(0x48E9C1BC)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (..\code\GUI\GUI_inc\gui.h)(0x4FA80ACA)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FE472)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4573B)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A7FD0)
+I (..\code\OV7670\fifo.h)(0x5099BB95)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\OV7670\ov7670.h)(0x51645B16)
+I (..\code\OV7670\SCCB.h)(0x4D5E7B33)
+F (..\CMSIS\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\core_cm3.o --omf_browse ..\output\core_cm3.crf --depend ..\output\core_cm3.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+F (..\CMSIS\system_stm32f10x.c)(0x52BBF51F)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\system_stm32f10x.o --omf_browse ..\output\system_stm32f10x.crf --depend ..\output\system_stm32f10x.d)
+I (..\CMSIS\stm32f10x.h)(0x4F34BA32)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\CMSIS\startup\startup_stm32f10x_md.s)(0x516D83BC)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x--list ..\listing\startup_stm32f10x_md.lst --xref -o ..\output\startup_stm32f10x_md.o --depend ..\output\startup_stm32f10x_md.d)
+F (..\code\ADC\ADC.C)(0x5160E47D)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\adc.o --omf_browse ..\output\adc.crf --depend ..\output\adc.d)
+I (..\code\ADC\adc.h)(0x509A530F)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\GUI\GUI_inc\gui.h)(0x4FA80ACA)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FE472)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4573B)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A7FD0)
+I (..\code\driver\SysConfig.h)(0x50E68C6E)
+F (..\code\user\main.c)(0x59C0C99C)(-c --cpu Cortex-M3 -g -W -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\GUI\GUI_inc\gui.h)(0x4FA80ACA)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FE472)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4573B)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A7FD0)
+I (..\code\driver\msd.h)(0x5099BB95)
+I (..\code\ffs\My_FF.h)(0x4D68A591)
+I (..\code\ffs\ff.h)(0x4C691358)
+I (..\code\ffs\integer.h)(0x4BD31212)
+I (..\code\ffs\ffconf.h)(0x4C73DA66)
+I (..\code\menu\my_menu.h)(0x4D68A591)
+I (..\code\OV7670\ov7670.h)(0x51645B16)
+I (..\code\OV7670\SCCB.h)(0x4D5E7B33)
+I (..\code\OV7670\fifo.h)(0x5099BB95)
+I (..\code\TFT\touch.h)(0x523E9CCC)
+I (..\code\driver\SysConfig.h)(0x50E68C6E)
+I (..\code\ffs\mmc_sd.h)(0x5099CFA8)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5523CC97)
+I (..\code\user\Font_lib_SD.h)(0x5156F534)
+I (..\code\user\ucGUI_Practice.h)(0x51A0EA82)
+I (..\code\GUI\GUI_inc\GUI_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUI_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIDebug.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUI_X.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\WM_GUI.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\LCD_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_ConfDefaults.h)(0x4F7FE47C)
+I (..\code\GUI\Config\LCDConf.h)(0x51E45905)
+I (..\code\TFT\TFT_ILI9328\MM_T035.h)(0x526104EC)
+F (..\code\user\serialnum.c)(0x509D3820)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\serialnum.o --omf_browse ..\output\serialnum.crf --depend ..\output\serialnum.d)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\user\serialnum.h)(0x509D3836)
+F (..\code\user\Font_lib_SD.c)(0x518D540E)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\font_lib_sd.o --omf_browse ..\output\font_lib_sd.crf --depend ..\output\font_lib_sd.d)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5523CC97)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\ffs\ff.h)(0x4C691358)
+I (..\code\ffs\integer.h)(0x4BD31212)
+I (..\code\ffs\ffconf.h)(0x4C73DA66)
+I (..\code\TFT\touch.h)(0x523E9CCC)
+I (..\code\user\Font_lib_SD.h)(0x5156F534)
+F (..\code\GUI\GUI_X.c)(0x51CAF39E)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\gui_x.o --omf_browse ..\output\gui_x.crf --depend ..\output\gui_x.d)
+I (..\code\GUI\GUI_inc\GUI.h)(0x4FA80ACA)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FE472)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4573B)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A7FD0)
+I (..\code\GUI\GUI_inc\GUI_X.h)(0x4123EF60)
+F (..\code\user\ucGUI_Practice.c)(0x5413279D)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\ucgui_practice.o --omf_browse ..\output\ucgui_practice.crf --depend ..\output\ucgui_practice.d)
+I (..\code\user\ucGUI_Practice.h)(0x51A0EA82)
+I (..\code\GUI\GUI_inc\gui.h)(0x4FA80ACA)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FE472)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4573B)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A7FD0)
+I (..\code\GUI\GUI_inc\GUI_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUI_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIDebug.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUI_X.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\WM_GUI.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\LCD_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_ConfDefaults.h)(0x4F7FE47C)
+I (..\code\GUI\Config\LCDConf.h)(0x51E45905)
+I (..\code\TFT\touch.h)(0x523E9CCC)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5523CC97)
+F (..\code\library\Camera_uCGUI Lib.lib)(0x52D43C6E)()
+F (..\code\Test ucGUI\Dialog_All.c)(0x52BBF5C4)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\dialog_all.o --omf_browse ..\output\dialog_all.crf --depend ..\output\dialog_all.d)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7C554)
+I (..\code\GUI\GUI_inc\GUI.h)(0x4FA80ACA)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FE472)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4573B)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A7FD0)
+I (..\code\GUI\GUI_inc\DIALOG.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WM.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WM_GUI.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\BUTTON.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\DIALOG_Intern.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WIDGET.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WM_Intern.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\GUI_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIDebug.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUI_X.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\SCROLLBAR.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\CHECKBOX.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\DROPDOWN.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\EDIT.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\FRAMEWIN.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\LISTBOX.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\MULTIEDIT.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\RADIO.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\SLIDER.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\TEXT.h)(0x4123EF62)
+I (..\code\user\ucGUI_Practice.h)(0x51A0EA82)
+I (..\code\GUI\GUI_inc\GUI_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_ConfDefaults.h)(0x4F7FE47C)
+I (..\code\GUI\Config\LCDConf.h)(0x51E45905)
+I (..\code\TFT\touch.h)(0x523E9CCC)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5523CC97)
+F (..\code\Test ucGUI\DIALOG_SliderColor.c)(0x52BBF5C4)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\dialog_slidercolor.o --omf_browse ..\output\dialog_slidercolor.crf --depend ..\output\dialog_slidercolor.d)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7C554)
+I (..\code\GUI\GUI_inc\GUI.h)(0x4FA80ACA)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FE472)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4573B)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A7FD0)
+I (..\code\GUI\GUI_inc\DIALOG.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WM.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WM_GUI.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\BUTTON.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\DIALOG_Intern.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WIDGET.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WM_Intern.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\GUI_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIDebug.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUI_X.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\SCROLLBAR.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\CHECKBOX.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\DROPDOWN.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\EDIT.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\FRAMEWIN.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\LISTBOX.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\MULTIEDIT.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\RADIO.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\SLIDER.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\TEXT.h)(0x4123EF62)
+I (..\code\user\ucGUI_Practice.h)(0x51A0EA82)
+I (..\code\GUI\GUI_inc\GUI_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_ConfDefaults.h)(0x4F7FE47C)
+I (..\code\GUI\Config\LCDConf.h)(0x51E45905)
+I (..\code\TFT\touch.h)(0x523E9CCC)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5523CC97)
+F (..\code\Test ucGUI\WM_LateClipping.c)(0x51A0E9D8)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\wm_lateclipping.o --omf_browse ..\output\wm_lateclipping.crf --depend ..\output\wm_lateclipping.d)
+I (..\code\GUI\GUI_inc\GUI.h)(0x4FA80ACA)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FE472)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4573B)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A7FD0)
+I (..\code\GUI\GUI_inc\WM.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WM_GUI.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\FRAMEWIN.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\DIALOG_Intern.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\BUTTON.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WIDGET.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WM_Intern.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\GUI_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIDebug.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUI_X.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\SCROLLBAR.h)(0x4123EF62)
+I (..\code\user\ucGUI_Practice.h)(0x51A0EA82)
+I (..\code\GUI\GUI_inc\GUI_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_ConfDefaults.h)(0x4F7FE47C)
+I (..\code\GUI\Config\LCDConf.h)(0x51E45905)
+I (..\code\TFT\touch.h)(0x523E9CCC)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5523CC97)
+F (..\code\Test ucGUI\DIALOG_NestedModal.c)(0x51A0EA00)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\dialog_nestedmodal.o --omf_browse ..\output\dialog_nestedmodal.crf --depend ..\output\dialog_nestedmodal.d)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\code\GUI\GUI_inc\GUI.h)(0x4FA80ACA)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FE472)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4573B)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A7FD0)
+I (..\code\GUI\GUI_inc\DIALOG.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WM.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WM_GUI.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\BUTTON.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\DIALOG_Intern.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WIDGET.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WM_Intern.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\GUI_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIDebug.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUI_X.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\SCROLLBAR.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\CHECKBOX.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\DROPDOWN.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\EDIT.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\FRAMEWIN.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\LISTBOX.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\MULTIEDIT.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\RADIO.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\SLIDER.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\TEXT.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\LISTVIEW.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\HEADER.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\MESSAGEBOX.h)(0x4123EF62)
+I (..\code\user\ucGUI_Practice.h)(0x51A0EA82)
+I (..\code\GUI\GUI_inc\GUI_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_ConfDefaults.h)(0x4F7FE47C)
+I (..\code\GUI\Config\LCDConf.h)(0x51E45905)
+I (..\code\TFT\touch.h)(0x523E9CCC)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5523CC97)
+F (..\code\Test ucGUI\WIDGET_Effect.c)(0x51A0EB50)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\widget_effect.o --omf_browse ..\output\widget_effect.crf --depend ..\output\widget_effect.d)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\code\GUI\GUI_inc\GUI.h)(0x4FA80ACA)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FE472)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4573B)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A7FD0)
+I (..\code\GUI\GUI_inc\DIALOG.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WM.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WM_GUI.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\BUTTON.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\DIALOG_Intern.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WIDGET.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WM_Intern.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\GUI_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIDebug.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUI_X.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\SCROLLBAR.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\CHECKBOX.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\DROPDOWN.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\EDIT.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\FRAMEWIN.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\LISTBOX.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\MULTIEDIT.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\RADIO.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\SLIDER.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\TEXT.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\PROGBAR.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\LISTVIEW.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\HEADER.h)(0x4123EF62)
+I (..\code\user\ucGUI_Practice.h)(0x51A0EA82)
+I (..\code\GUI\GUI_inc\GUI_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_ConfDefaults.h)(0x4F7FE47C)
+I (..\code\GUI\Config\LCDConf.h)(0x51E45905)
+I (..\code\TFT\touch.h)(0x523E9CCC)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5523CC97)
+F (..\code\Test ucGUI\WIDGET_NumPad.c)(0x52A4A520)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\widget_numpad.o --omf_browse ..\output\widget_numpad.crf --depend ..\output\widget_numpad.d)
+I (..\code\GUI\GUI_inc\DIALOG.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WM.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FE472)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4573B)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\WM_GUI.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\BUTTON.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\DIALOG_Intern.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WIDGET.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WM_Intern.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\GUI_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUI.h)(0x4FA80ACA)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A7FD0)
+I (..\code\GUI\GUI_inc\LCD_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIDebug.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUI_X.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\SCROLLBAR.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\CHECKBOX.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\DROPDOWN.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\EDIT.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\FRAMEWIN.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\LISTBOX.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\MULTIEDIT.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\RADIO.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\SLIDER.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\TEXT.h)(0x4123EF62)
+I (..\code\user\ucGUI_Practice.h)(0x51A0EA82)
+I (..\code\GUI\GUI_inc\GUI_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_ConfDefaults.h)(0x4F7FE47C)
+I (..\code\GUI\Config\LCDConf.h)(0x51E45905)
+I (..\code\TFT\touch.h)(0x523E9CCC)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5523CC97)
+F (..\code\Test ucGUI\WIDGET_Multipage.c)(0x51A0EB50)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\widget_multipage.o --omf_browse ..\output\widget_multipage.crf --depend ..\output\widget_multipage.d)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (..\code\GUI\GUI_inc\GUI.h)(0x4FA80ACA)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FE472)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4573B)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A7FD0)
+I (..\code\GUI\GUI_inc\MULTIPAGE.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WM.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WM_GUI.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\DIALOG.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\BUTTON.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\DIALOG_Intern.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WIDGET.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WM_Intern.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\GUI_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIDebug.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUI_X.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\SCROLLBAR.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\CHECKBOX.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\DROPDOWN.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\EDIT.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\FRAMEWIN.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\LISTBOX.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\MULTIEDIT.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\RADIO.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\SLIDER.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\TEXT.h)(0x4123EF62)
+I (..\code\user\ucGUI_Practice.h)(0x51A0EA82)
+I (..\code\GUI\GUI_inc\GUI_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_ConfDefaults.h)(0x4F7FE47C)
+I (..\code\GUI\Config\LCDConf.h)(0x51E45905)
+I (..\code\TFT\touch.h)(0x523E9CCC)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5523CC97)
+F (..\code\Test ucGUI\WIDGET_ButtonRound.c)(0x51A0EB64)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\widget_buttonround.o --omf_browse ..\output\widget_buttonround.crf --depend ..\output\widget_buttonround.d)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\code\GUI\GUI_inc\WM.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FE472)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4573B)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\WM_GUI.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\FRAMEWIN.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\DIALOG_Intern.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\BUTTON.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WIDGET.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\WM_Intern.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\GUI_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUI.h)(0x4FA80ACA)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A7FD0)
+I (..\code\GUI\GUI_inc\LCD_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIDebug.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUI_X.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\SCROLLBAR.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\BUTTON_Private.h)(0x4123EF62)
+I (..\code\user\ucGUI_Practice.h)(0x51A0EA82)
+I (..\code\GUI\GUI_inc\GUI_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_ConfDefaults.h)(0x4F7FE47C)
+I (..\code\GUI\Config\LCDConf.h)(0x51E45905)
+I (..\code\TFT\touch.h)(0x523E9CCC)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5523CC97)
+F (..\code\GPS\GPS_tiky.c)(0x5196E7A9)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\gps_tiky.o --omf_browse ..\output\gps_tiky.crf --depend ..\output\gps_tiky.d)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\driver\SysConfig.h)(0x50E68C6E)
+I (..\code\GUI\GUI_inc\GUI_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUI_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUI.h)(0x4FA80ACA)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FE472)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4573B)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A7FD0)
+I (..\code\GUI\GUI_inc\LCD_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIDebug.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUI_X.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\WM_GUI.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\LCD_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_ConfDefaults.h)(0x4F7FE47C)
+I (..\code\GUI\Config\LCDConf.h)(0x51E45905)
+I (..\code\TFT\touch.h)(0x523E9CCC)
+I (..\code\GPS\GPS_tiky.h)(0x518F9B0E)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5523CC97)
+I (..\code\ffs\My_FF.h)(0x4D68A591)
+I (..\code\ffs\ff.h)(0x4C691358)
+I (..\code\ffs\integer.h)(0x4BD31212)
+I (..\code\ffs\ffconf.h)(0x4C73DA66)
+F (..\code\ffs\ff.c)(0x4D6B6A95)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\ff.o --omf_browse ..\output\ff.crf --depend ..\output\ff.d)
+I (..\code\ffs\ff.h)(0x4C691358)
+I (..\code\ffs\integer.h)(0x4BD31212)
+I (..\code\ffs\ffconf.h)(0x4C73DA66)
+I (..\code\ffs\diskio.h)(0x4C74D1CC)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+F (..\code\ffs\diskio.c)(0x4D773213)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\diskio.o --omf_browse ..\output\diskio.crf --depend ..\output\diskio.d)
+I (..\code\driver\msd.h)(0x5099BB95)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\ffs\diskio.h)(0x4C74D1CC)
+I (..\code\ffs\integer.h)(0x4BD31212)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (..\code\RTC\calendar.h)(0x5099BB95)
+F (..\code\ffs\My_FF.c)(0x51809206)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\my_ff.o --omf_browse ..\output\my_ff.crf --depend ..\output\my_ff.d)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (..\code\driver\msd.h)(0x5099BB95)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\ffs\integer.h)(0x4BD31212)
+I (..\code\ffs\diskio.h)(0x4C74D1CC)
+I (..\code\ffs\ff.h)(0x4C691358)
+I (..\code\ffs\ffconf.h)(0x4C73DA66)
+I (..\code\ffs\My_FF.h)(0x4D68A591)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5523CC97)
+I (..\code\TFT\lcm_api.h)(0x5187EE2E)
+I (..\code\RTC\calendar.h)(0x5099BB95)
+F (..\code\OV7670\delay.c)(0x4D5E768E)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\delay.o --omf_browse ..\output\delay.crf --depend ..\output\delay.d)
+I (..\code\OV7670\delay.h)(0x4D5E7638)
+F (..\code\OV7670\delay.h)(0x4D5E7638)()
+F (..\code\OV7670\fifo.c)(0x516BD8AE)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\fifo.o --omf_browse ..\output\fifo.crf --depend ..\output\fifo.d)
+I (..\code\OV7670\fifo.h)(0x5099BB95)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\code\OV7670\fifo.h)(0x5099BB95)()
+F (..\code\OV7670\ov7670.c)(0x51645E12)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\ov7670.o --omf_browse ..\output\ov7670.crf --depend ..\output\ov7670.d)
+I (..\code\OV7670\ov7670.h)(0x51645B16)
+I (..\code\OV7670\SCCB.h)(0x4D5E7B33)
+I (..\code\OV7670\delay.h)(0x4D5E7638)
+I (..\code\OV7670\ov7670config.h)(0x4DC2C03A)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\code\OV7670\ov7670.h)(0x51645B16)()
+F (..\code\OV7670\OV7670_test.c)(0x51A19330)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\ov7670_test.o --omf_browse ..\output\ov7670_test.crf --depend ..\output\ov7670_test.d)
+I (..\code\ffs\ff.h)(0x4C691358)
+I (..\code\ffs\integer.h)(0x4BD31212)
+I (..\code\ffs\ffconf.h)(0x4C73DA66)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (..\code\OV7670\fifo.h)(0x5099BB95)
+I (..\code\OV7670\ov7670.h)(0x51645B16)
+I (..\code\OV7670\SCCB.h)(0x4D5E7B33)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5523CC97)
+I (..\code\TFT\lcm_api.h)(0x5187EE2E)
+I (..\code\TFT\touch.h)(0x523E9CCC)
+I (..\code\driver\msd.h)(0x5099BB95)
+I (..\code\ffs\My_FF.h)(0x4D68A591)
+F (..\code\OV7670\ov7670config.h)(0x4DC2C03A)()
+F (..\code\OV7670\sccb.c)(0x5099BB95)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\sccb.o --omf_browse ..\output\sccb.crf --depend ..\output\sccb.d)
+I (..\code\OV7670\sccb.h)(0x4D5E7B33)
+I (..\code\OV7670\delay.h)(0x4D5E7638)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\code\OV7670\sccb.h)(0x4D5E7B33)()
+F (..\code\menu\my_menu.c)(0x51A1C73D)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\my_menu.o --omf_browse ..\output\my_menu.crf --depend ..\output\my_menu.d)
+I (..\code\menu\my_menu.h)(0x4D68A591)
+I (..\code\GUI\GUI_inc\gui.h)(0x4FA80ACA)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FE472)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4573B)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A7FD0)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5523CC97)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\TFT\lcm_api.h)(0x5187EE2E)
+I (..\code\TFT\touch.h)(0x523E9CCC)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (..\code\ffs\My_FF.h)(0x4D68A591)
+I (..\code\ffs\ff.h)(0x4C691358)
+I (..\code\ffs\integer.h)(0x4BD31212)
+I (..\code\ffs\ffconf.h)(0x4C73DA66)
+I (..\code\RTC\calendar.h)(0x5099BB95)
+I (..\code\user\Font_lib_SD.h)(0x5156F534)
+F (..\code\RTC\RTC.c)(0x51A19A26)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\rtc.o --omf_browse ..\output\rtc.crf --depend ..\output\rtc.d)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5523CC97)
+I (..\code\TFT\lcm_api.h)(0x5187EE2E)
+I (..\code\RTC\calendar.h)(0x5099BB95)
+I (..\code\GUI\GUI_inc\gui.h)(0x4FA80ACA)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FE472)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4573B)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A7FD0)
+I (..\code\ADC\ADC.H)(0x509A530F)
+F (..\code\RTC\calendar.c)(0x51A0B371)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\calendar.o --omf_browse ..\output\calendar.crf --depend ..\output\calendar.d)
+I (..\code\RTC\calendar.h)(0x5099BB95)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\code\TFT\TFT_ILI9328\ILI9325.c)(0x59C0DD25)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\ili9325.o --omf_browse ..\output\ili9325.crf --depend ..\output\ili9325.d)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5523CC97)
+F (..\code\TFT\picdemo.c)(0x5196E699)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\picdemo.o --omf_browse ..\output\picdemo.crf --depend ..\output\picdemo.d)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\ffs\ff.h)(0x4C691358)
+I (..\code\ffs\integer.h)(0x4BD31212)
+I (..\code\ffs\ffconf.h)(0x4C73DA66)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5523CC97)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (..\code\TFT\touch.h)(0x523E9CCC)
+I (..\code\driver\msd.h)(0x5099BB95)
+F (..\code\TFT\lcm_api.c)(0x518DC636)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\lcm_api.o --omf_browse ..\output\lcm_api.crf --depend ..\output\lcm_api.d)
+I (..\code\TFT\lcm_api.h)(0x5187EE2E)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\GUI\GUI_inc\GUI_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUI_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUI.h)(0x4FA80ACA)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FE472)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4573B)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A7FD0)
+I (..\code\GUI\GUI_inc\LCD_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIDebug.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUI_X.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\WM_GUI.h)(0x4123EF62)
+I (..\code\GUI\GUI_inc\LCD_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_ConfDefaults.h)(0x4F7FE47C)
+I (..\code\GUI\Config\LCDConf.h)(0x51E45905)
+I (..\code\TFT\lcm_font.h)(0x5187C629)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5523CC97)
+F (..\code\TFT\touch.c)(0x52D3CF0C)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\touch.o --omf_browse ..\output\touch.crf --depend ..\output\touch.d)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5523CC97)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\TFT\touch.h)(0x523E9CCC)
+I (..\code\TFT\lcm_api.h)(0x5187EE2E)
+F (..\code\driver\msd.c)(0x50CDE168)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\msd.o --omf_browse ..\output\msd.crf --depend ..\output\msd.d)
+I (..\code\driver\msd.h)(0x5099BB95)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\code\driver\SysConfig.c)(0x53FAB924)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\sysconfig.o --omf_browse ..\output\sysconfig.crf --depend ..\output\sysconfig.d)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\driver\SysConfig.h)(0x50E68C6E)
+F (..\code\driver\uart.c)(0x518F9C40)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\uart.o --omf_browse ..\output\uart.crf --depend ..\output\uart.d)
+I (..\code\header\config.h)(0x5099BBC4)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\setjmp.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\rt_misc.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\header\../system/stm32f10x_it.h)(0x48E9C1BC)
+F (..\FWlib\src\stm32f10x_adc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_adc.o --omf_browse ..\output\stm32f10x_adc.crf --depend ..\output\stm32f10x_adc.d)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\FWlib\src\stm32f10x_gpio.c)(0x4D79EEC6)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_gpio.o --omf_browse ..\output\stm32f10x_gpio.crf --depend ..\output\stm32f10x_gpio.d)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\FWlib\src\stm32f10x_rtc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_rtc.o --omf_browse ..\output\stm32f10x_rtc.crf --depend ..\output\stm32f10x_rtc.d)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\FWlib\src\stm32f10x_rcc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_rcc.o --omf_browse ..\output\stm32f10x_rcc.crf --depend ..\output\stm32f10x_rcc.d)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\FWlib\src\stm32f10x_spi.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_spi.o --omf_browse ..\output\stm32f10x_spi.crf --depend ..\output\stm32f10x_spi.d)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\FWlib\src\stm32f10x_tim.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_tim.o --omf_browse ..\output\stm32f10x_tim.crf --depend ..\output\stm32f10x_tim.d)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\FWlib\src\stm32f10x_usart.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_usart.o --omf_browse ..\output\stm32f10x_usart.crf --depend ..\output\stm32f10x_usart.d)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\FWlib\src\stm32f10x_dma.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_dma.o --omf_browse ..\output\stm32f10x_dma.crf --depend ..\output\stm32f10x_dma.d)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\FWlib\src\stm32f10x_exti.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_exti.o --omf_browse ..\output\stm32f10x_exti.crf --depend ..\output\stm32f10x_exti.d)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\FWlib\src\stm32f10x_bkp.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_bkp.o --omf_browse ..\output\stm32f10x_bkp.crf --depend ..\output\stm32f10x_bkp.d)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\FWlib\src\misc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\misc.o --omf_browse ..\output\misc.crf --depend ..\output\misc.d)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+F (..\FWlib\src\stm32f10x_pwr.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_pwr.o --omf_browse ..\output\stm32f10x_pwr.crf --depend ..\output\stm32f10x_pwr.d)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\FWlib\src\stm32f10x_fsmc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_fsmc.o --omf_browse ..\output\stm32f10x_fsmc.crf --depend ..\output\stm32f10x_fsmc.d)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\code\GUI\LCDDriver\LCDNull.c)(0x53FABF02)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\lcdnull.o --omf_browse ..\output\lcdnull.crf --depend ..\output\lcdnull.d)
+I (..\code\GUI\GUI_inc\LCD_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD_ConfDefaults.h)(0x4F7FE47C)
+I (..\code\GUI\Config\LCDConf.h)(0x51E45905)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FE472)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4573B)
+I (..\code\GUI\GUI_inc\LCD_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUI.h)(0x4FA80ACA)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A7FD0)
+I (..\code\GUI\GUI_inc\GUI_Private.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUI_Protected.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIDebug.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUI_X.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\WM_GUI.h)(0x4123EF62)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5523CC97)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\code\PS2\mouse.c)(0x525613AB)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\mouse.o --omf_browse ..\output\mouse.crf --depend ..\output\mouse.d)
+I (..\code\PS2\mouse.h)(0x5056AEA4)
+I (..\code\PS2\ps2.h)(0x54132401)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\code\PS2\ps2.c)(0x54132732)(-c --cpu Cortex-M3 -g -O2 -Otime --apcs=interwork --split_sections -I..\code\header -I..\code\library\inc -I..\..\include -I..\..\..\..\library\inc -I..\..\..\..\..\FWLib\library\inc -I..\code\FAT16 -I..\code\driver -I..\code\ffs -I..\code\TFT -I..\code\OV7670 -I..\code\TFT -I..\code\menu -I..\code\TFT\TFT_ILI9328 -I..\code\RTC -I..\code\user -I..\code\GUI\Config -I..\code\ADC -I..\FWlib\inc -I..\code\GUI\GUI_inc -I..\code\GPS -I..\code\GUI_4.04\Include -I..\code\PS2-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\ps2.o --omf_browse ..\output\ps2.crf --depend ..\output\ps2.d)
+I (..\code\PS2\ps2.h)(0x54132401)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532BF35C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\code\user\stm32f10x_conf.h)(0x51E4094D)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\GUI\GUI_inc\gui.h)(0x4FA80ACA)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FE472)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4573B)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123EF60)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A7FD0)

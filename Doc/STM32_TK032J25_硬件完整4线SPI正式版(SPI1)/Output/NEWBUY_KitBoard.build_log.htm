@@ -1,0 +1,84 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.27.1.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: li Cai Hong Li, a, LIC=LSNXV-PFP11-VE3HA-1N22B-3DTAL-PBKCF
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.27.1.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.27.1.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      Segger\JL2CM3.dll V2.99.35.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+D:\STM32_WorkSpace\Led_Controller\Doc\STM32_TK032J25_硬件完整4线SPI正式版(SPI1)\NEWBUY_KitBoard.uvproj
+Project File Date:  04/10/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'NEWBUY_KitBoard'
+compiling systick.c...
+assembling startup_stm32f10x_hd.s...
+compiling usart_printf.c...
+compiling spi.c...
+compiling stm32f10x_it.c...
+compiling main.c...
+.\Source\LCDDriver\LCD.h(48): warning:  #77-D: this declaration has no storage class or type specifier
+   WriteData(u16 tem_data);
+Source\main.c(74): warning:  #223-D: function "LCD_GPIO_Config" declared implicitly
+  	LCD_GPIO_Config();
+Source\main.c(81): warning:  #223-D: function "SPI1_Init" declared implicitly
+  	SPI1_Init();
+Source\main.c(94): warning:  #111-D: statement is unreachable
+  		if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_0)==0){i++;flag=1;}
+Source\main.c(458): warning:  #177-D: function "DispLogo"  was declared but never referenced
+  static void DispLogo(void)
+Source\main.c(51): warning:  #177-D: function "Button_GPIO_Config"  was declared but never referenced
+  static void Button_GPIO_Config(void)
+Source\main.c: 6 warnings, 0 errors
+compiling ff.c...
+compiling diskio.c...
+compiling system_stm32f10x.c...
+compiling sdcard.c...
+compiling stm32f10x_gpio.c...
+compiling misc.c...
+compiling Touch.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_fsmc.c...
+compiling core_cm3.c...
+compiling stm32f10x_rcc.c...
+compiling LCD.c...
+Source\LCDDriver\LCD.h(48): warning:  #77-D: this declaration has no storage class or type specifier
+   WriteData(u16 tem_data);
+.\Source\GB1616.h(70): warning:  #1-D: last line of file ends without a newline
+  };
+Source\LCDDriver\LCD.c(126): warning:  #177-D: variable "a"  was declared but never referenced
+  	int a,i;
+Source\LCDDriver\LCD.c(568): warning:  #177-D: variable "j"  was declared but never referenced
+  	unsigned int j;
+Source\LCDDriver\LCD.c(713): warning:  #223-D: function "SD_Init" declared implicitly
+  	 SD_Init();//重新初始化SD卡 
+Source\LCDDriver\LCD.c(784): warning:  #1-D: last line of file ends without a newline
+  }
+Source\LCDDriver\LCD.c: 6 warnings, 0 errors
+compiling stm32f10x_usart.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_sdio.c...
+linking...
+Program Size: Code=5866 RO-data=307938 RW-data=68 ZI-data=4228  
+FromELF: creating hex file...
+".\Output\NEWBUY_KitBoard.axf" - 0 Error(s), 12 Warning(s).
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>
